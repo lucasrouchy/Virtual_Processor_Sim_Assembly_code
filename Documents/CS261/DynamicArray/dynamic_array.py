@@ -2,7 +2,7 @@
 # Your implementation should pass the tests in test_dynamic_array.py.
 # YOUR NAME
 # import numpy
-import numpy 
+import numpy as np
 
 DEFAULT_CAPACITY = 10
 class DynamicArray:
@@ -10,7 +10,7 @@ class DynamicArray:
         
         self.capacity = DEFAULT_CAPACITY
         self.size = 0
-        self.data = numpy.ndarray(self.capacity,dtype= object)
+        self.data = np.ndarray(self.capacity,dtype= object)
  
 
     
@@ -26,6 +26,9 @@ class DynamicArray:
             return True
         else:
             return False
+    
+    def __getitem__(self, num): 
+        return self.data[num]
     def append(self, value):
         index = self.__len__()
         print("appending: ", index)

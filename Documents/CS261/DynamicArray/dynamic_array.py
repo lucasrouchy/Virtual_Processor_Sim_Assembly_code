@@ -2,5 +2,6 @@
 # Your implementation should pass the tests in test_dynamic_array.py.
 # YOUR NAME
 
-class FixMe:
-    pass
+class DynamicArray:
+    def __init__(self):
+        self.data = []

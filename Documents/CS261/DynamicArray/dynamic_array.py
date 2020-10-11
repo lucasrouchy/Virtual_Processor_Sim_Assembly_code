@@ -6,4 +6,8 @@ class DynamicArray:
     def __init__(self):
         self.data = []
         self.capacity = DEFAULT_CAPACITY
-        
+        self.size = 0
+    
+
+    def is_empty(self):
+        return self.data == []

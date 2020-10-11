@@ -11,3 +11,10 @@ class DynamicArray:
 
     def is_empty(self):
         return self.data == []
+
+    
+    def __len__(self) -> int:
+        return self.size
+    # def append(self, value):
+    #     index = self.size
+    #     self.data.insert(index, value)

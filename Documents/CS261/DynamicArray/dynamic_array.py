@@ -27,8 +27,11 @@ class DynamicArray:
         else:
             return False
     
-    def __getitem__(self, num): 
-        return self.data[num]
+    def __getitem__(self, index): 
+        if index <= (self.next_index -1) and index >= 0:
+            return self.data[index]
+        else:
+            raise IndexError('Out of Range')
     def append(self, value):
         self.next_index+=1
         if self.next_index > self.capacity:

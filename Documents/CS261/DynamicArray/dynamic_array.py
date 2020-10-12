@@ -39,8 +39,8 @@ class DynamicArray:
         if self.next_index > self.capacity:
             self.capacity *=2
             new_array = np.full(self.capacity, None, dtype = object)
-            for idx, x in np.ndenumerate(self.data):
-                new_array[idx] = x
+            for ix, x in np.ndenumerate(self.data):
+                new_array[ix] = x
             self.data = new_array
         self.data[self.next_index - 1] = value
     def clear(self):

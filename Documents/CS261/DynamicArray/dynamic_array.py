@@ -93,3 +93,17 @@ class DynamicArray:
         for idx, x in np.ndenumerate(self.data[:self.next_index]):
             if x == val:
                 return idx[0]
+    def binary_search(self, val):
+        left_index = 0
+        right_index = self.next_index - 1
+        found = 0
+        while left_index <= right_index and not found:
+            middle_index = (left_index + right_index) // 2
+            if self.data[middle_index] == val:
+                found = middle_index
+            else:
+                if val < self.data[middle_index]:
+                    right_index = middle_index - 1
+                else:
+                    left_index = middle_index + 1
+        return found

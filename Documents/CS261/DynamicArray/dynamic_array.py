@@ -74,3 +74,15 @@ class DynamicArray:
             if x > max_value:
                 max_value = x
         return max_value
+    def min(self):
+        min_value = self.data[0]
+        for x in np.nditer(self.data[1:self.next_index], flags=['refs_ok', 'zerosize_ok']):
+            if x < min_value:
+                min_value = x
+        return min_value
+    def sum(self):
+        total = self.data[0];
+        for x in np.nditer(self.data[1:self.next_index], flags=['refs_ok', 'zerosize_ok']):
+            total += x
+        return total
+        

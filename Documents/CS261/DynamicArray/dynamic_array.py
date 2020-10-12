@@ -41,4 +41,11 @@ class DynamicArray:
         new_array = np.full(self.capacity, None, dtype = object)
         self.data = new_array
         self.next_index = 0 
-        
+    def pop(self):
+        if not self.next_index == 0:
+            removed_value = self.data[self.next_index -1]
+            self.data[self.next_index -1] = None
+            self.next_index -= 1
+            return removed_value
+        else:
+            raise IndexError("Can not pop from empty array")

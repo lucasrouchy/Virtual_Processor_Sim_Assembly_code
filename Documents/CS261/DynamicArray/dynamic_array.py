@@ -26,6 +26,8 @@ class DynamicArray:
             return True
         else:
             return False
+    def is_full(self) -> bool:
+        return self.next_index >= self.capacity
     
     def __getitem__(self, index): 
         if index <= (self.next_index -1) and index >= 0:
@@ -65,3 +67,10 @@ class DynamicArray:
             self.data[index] = value
         else:
             raise IndexError("out of bounds")
+
+    def max(self):
+        max_value = self.data[0]
+        for x in np.nditer(self.data[1:self.next_index], flags=['refs_ok', 'zerosize_ok']):
+            if x > max_value:
+                max_value = x
+        return max_value

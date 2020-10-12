@@ -9,7 +9,7 @@ class DynamicArray:
     def __init__(self):
         
         self.capacity = DEFAULT_CAPACITY
-        self.size = 0
+        self.next_index = 0
         self.data = np.ndarray(self.capacity,dtype= object)
  
 
@@ -30,8 +30,8 @@ class DynamicArray:
     def __getitem__(self, num): 
         return self.data[num]
     def append(self, value):
-        self.size+=1
-        if self.size > self.capacity:
+        self.next_index+=1
+        if self.next_index > self.capacity:
             self.capacity *=2
-        self.data[self.size - 1] = value
+        self.data[self.next_index - 1] = value
         

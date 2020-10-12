@@ -30,7 +30,8 @@ class DynamicArray:
     def __getitem__(self, num): 
         return self.data[num]
     def append(self, value):
-        index = self.__len__()
-        print("appending: ", index)
-        self.data[index] = object
+        self.size+=1
+        if self.size > self.capacity:
+            self.capacity *=2
+        self.data[self.size - 1] = value
         

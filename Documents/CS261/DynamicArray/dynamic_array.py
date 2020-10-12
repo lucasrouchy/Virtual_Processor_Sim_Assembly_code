@@ -49,11 +49,19 @@ class DynamicArray:
             return removed_value
         else:
             raise IndexError("Can not pop from empty array")
-    def delete(self, index: int) -> None:
+    def delete(self, index):
         if index <= (self.next_index -1) and index >= 0:
             self.data[self.next_index - 1] = None
             self.next_index -= 1
             if self.next_index <= self.capacity // 2:
                 self.capacity = (self.capacity // 2)
+        else:
+            raise IndexError("out of bounds")
+    def insert(self, index, value):
+        if index <= (self.next_index) and index >= 0:
+            self.next_index += 1
+            if self.next_index > self.capacity:
+                 self.capacity *=2
+            self.data[index] = value
         else:
             raise IndexError("out of bounds")

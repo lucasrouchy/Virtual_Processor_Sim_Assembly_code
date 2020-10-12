@@ -38,6 +38,10 @@ class DynamicArray:
         self.next_index+=1
         if self.next_index > self.capacity:
             self.capacity *=2
+            new_array = np.full(self.capacity, None, dtype = object)
+            for idx, x in np.ndenumerate(self.data):
+                new_array[idx] = x
+            self.data = new_array
         self.data[self.next_index - 1] = value
     def clear(self):
         new_array = np.full(self.capacity, None, dtype = object)
@@ -81,8 +85,11 @@ class DynamicArray:
                 min_value = x
         return min_value
     def sum(self):
-        total = self.data[0];
+        total = self.data[0]
         for x in np.nditer(self.data[1:self.next_index], flags=['refs_ok', 'zerosize_ok']):
             total += x
         return total
-        
+    def linear_search(self, val):
+        for idx, x in np.ndenumerate(self.data[:self.next_index]):
+            if x == val:
+                return idx[0]

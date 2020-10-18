@@ -167,14 +167,14 @@ class TestHashTable(unittest.TestCase):
     # Misc. Methods
     # """
 
-    def test_clear(self):
-        """
-        A cleared HashTable has an empty data array.
-        """
-        h = HashTable(3)
-        h['foo'] = 'bar'
-        h.clear()
-        self.assertEqual([[], [], []], h.data)
+    # def test_clear(self):
+    #     """
+    #     A cleared HashTable has an empty data array.
+    #     """
+    #     h = HashTable(3)
+    #     h['foo'] = 'bar'
+    #     h.clear()
+    #     self.assertEqual([[], [], []], h.data)
 
     # def test_initial_keys(self):
     #     """
@@ -244,27 +244,27 @@ class TestHashTable(unittest.TestCase):
     #         large_average_elapsed_time,\
     #         delta=small_average_elapsed_time*2) # Just a small amount, the 2 isn't significant.
 
-    # def test_constant_retrieval_order(self):
-    #     """
-    #     Retrieving a value using the first-used key and the most recently-used
-    #     key should be in constant time. (Order shouldn't matter.)
-    #     """
-    #     # Create a hash table with 20,000 entries in it.
-    #     h = HashTable(20000)
-    #     first_key = fake_key()
-    #     last_key = fake_key()
-    #     h[first_key] = fake_value()
-    #     for _ in range(19998):
-    #         h[fake_key()] = fake_value()
-    #     h[last_key] = fake_value()
-    #     # Calculate the average retrieval time for the first key and last key.
-    #     first_key_value_average_retrieval_time = average_retrieval_time(h, first_key)
-    #     last_key_value_average_retrieval_time = average_retrieval_time(h, last_key)
-    #     # Test that the average retrieval time for both first and last keys
-    #     # is about the same.
-    #     self.assertAlmostEqual(first_key_value_average_retrieval_time,\
-    #         last_key_value_average_retrieval_time,\
-    #         delta=first_key_value_average_retrieval_time*2) # Just a small amount, the 2 isn't significant.
+    def test_constant_retrieval_order(self):
+        """
+        Retrieving a value using the first-used key and the most recently-used
+        key should be in constant time. (Order shouldn't matter.)
+        """
+        # Create a hash table with 20,000 entries in it.
+        h = HashTable(20000)
+        first_key = fake_key()
+        last_key = fake_key()
+        h[first_key] = fake_value()
+        for _ in range(19998):
+            h[fake_key()] = fake_value()
+        h[last_key] = fake_value()
+        # Calculate the average retrieval time for the first key and last key.
+        first_key_value_average_retrieval_time = average_retrieval_time(h, first_key)
+        last_key_value_average_retrieval_time = average_retrieval_time(h, last_key)
+        # Test that the average retrieval time for both first and last keys
+        # is about the same.
+        self.assertAlmostEqual(first_key_value_average_retrieval_time,\
+            last_key_value_average_retrieval_time,\
+            delta=first_key_value_average_retrieval_time*2) # Just a small amount, the 2 isn't significant.
 
 def fake_key():
     return f"FAKE KEY {time.time()}"

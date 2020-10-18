@@ -154,27 +154,27 @@ class TestHashTable(unittest.TestCase):
     # Deletion
     # """
 
-    def test_delete(self):
-        """
-        A deleted k-v pair should not be retrievable.
-        """
-        h = HashTable(3)
-        h['foo'] = 'bar'
-        h.delete('foo')
-        self.assertEqual(None, h['foo'])
+    # def test_delete(self):
+    #     """
+    #     A deleted k-v pair should not be retrievable.
+    #     """
+    #     h = HashTable(3)
+    #     h['foo'] = 'bar'
+    #     h.delete('foo')
+    #     self.assertEqual(None, h['foo'])
 
     # """
     # Misc. Methods
     # """
 
-    # def test_clear(self):
-    #     """
-    #     A cleared HashTable has an empty data array.
-    #     """
-    #     h = HashTable(3)
-    #     h['foo'] = 'bar'
-    #     h.clear()
-    #     self.assertEqual([[], [], []], h.data)
+    def test_clear(self):
+        """
+        A cleared HashTable has an empty data array.
+        """
+        h = HashTable(3)
+        h['foo'] = 'bar'
+        h.clear()
+        self.assertEqual([[], [], []], h.data)
 
     # def test_initial_keys(self):
     #     """

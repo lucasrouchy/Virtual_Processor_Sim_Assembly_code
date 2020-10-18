@@ -36,3 +36,5 @@ class HashTable:
         for i, kv in enumerate(bucket := self.__get_bucket(key)):
             if kv[0] == key:
                 bucket.pop(i)
+    def clear(self):
+        self.data = [[] for i in range(self.size)]

@@ -11,6 +11,10 @@ class HashTable:
     
     def __setitem__(self, key, value):
         bucket=self.__get_bucket(key)
+        if (duplicate_key := self.__get_kv_pair(key, bucket)):
+            duplicate_key[1] = value
+            return
+        bucket.append([key, value])
         
     def __get_bucket(self, key):
         return self.data[self.hash(key)]

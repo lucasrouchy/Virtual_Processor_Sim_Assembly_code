@@ -9,6 +9,11 @@ class HashTable:
         self.size = size
         self.data = [[] for i in range(size)]
     
+    def __setitem__(self, key, value):
+        bucket=self.__get_bucket(key)
         
-        
+    def __get_bucket(self, key):
+        return self.data[self.hash(key)]
+    def hash(self, key):
+        return hash(key) % self.size
         

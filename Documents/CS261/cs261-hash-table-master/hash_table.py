@@ -21,3 +21,10 @@ class HashTable:
         if (x := self.__get_bucket(key)) != []:
             return x[0][1]
         return None
+    def __get_kv_pair(self, key, bucket):
+        return next((kv_pair for kv_pair in bucket if kv_pair[0] == key), None)
+    def keys(self):
+        return ([kv_pair[0] for bucket in self.data for kv_pair in bucket]) 
+
+    def values(self):
+        return ([kv_pair[1] for bucket in self.data for kv_pair in bucket]) 

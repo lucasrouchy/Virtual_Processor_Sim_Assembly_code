@@ -40,12 +40,12 @@ class TestHashTable(unittest.TestCase):
     # Basic API
     # """
 
-    def test_simple_insertion(self):
-        h = HashTable()
-        try:
-            h['foo'] = 'bar'
-        except TypeError:
-            self.fail("HashTable has no __setitem__ implementation")
+    # def test_simple_insertion(self):
+    #     h = HashTable()
+    #     try:
+    #         h['foo'] = 'bar'
+    #     except TypeError:
+    #         self.fail("HashTable has no __setitem__ implementation")
 
     # def test_simple_retrieval(self):
     #     h = HashTable()
@@ -76,13 +76,13 @@ class TestHashTable(unittest.TestCase):
     #     h = HashTable()
     #     self.assertEqual(list, type(h.data))
 
-    # def test_data_contents(self):
-    #     """
-    #     A HashTable data array contains empty lists.
-    #     """
-    #     h = HashTable(3)
-    #     expected = [ [], [], [] ]
-    #     self.assertEqual(expected, h.data)
+    def test_data_contents(self):
+        """
+        A HashTable data array contains empty lists.
+        """
+        h = HashTable(3)
+        expected = [ [], [], [] ]
+        self.assertEqual(expected, h.data)
 
     # """
     # Insertion Basics

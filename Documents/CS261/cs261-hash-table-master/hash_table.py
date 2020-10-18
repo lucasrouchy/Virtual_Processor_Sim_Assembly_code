@@ -17,3 +17,7 @@ class HashTable:
     def hash(self, key):
         return hash(key) % self.size
         
+    def __getitem__(self, key):
+        if (x := self.__get_bucket(key)) != []:
+            return x[0][1]
+        return None

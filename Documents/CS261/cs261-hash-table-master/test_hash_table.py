@@ -131,14 +131,14 @@ class TestHashTable(unittest.TestCase):
     # #     self.assertEqual([[9, 'foo']], h.data[0])
     #     self.assertEqual([[11, 'bar']], h.data[2])
 
-    def test_insert_existing(self):
-        """
-        Inserting a k-v pair where the key already exists overwrites the old value.
-        """
-        h = HashTable(3)
-        h[9] = 'foo' # Using numbers as keys for visibility.
-        h[9] = 'bar'
-        self.assertEqual([[9, 'bar']], h.data[0])
+    # def test_insert_existing(self):
+    #     """
+    #     Inserting a k-v pair where the key already exists overwrites the old value.
+    #     """
+    #     h = HashTable(3)
+    #     h[9] = 'foo' # Using numbers as keys for visibility.
+    #     h[9] = 'bar'
+    #     self.assertEqual([[9, 'bar']], h.data[0])
 
     # def test_insert_collision(self):
     #     """
@@ -154,14 +154,14 @@ class TestHashTable(unittest.TestCase):
     # Deletion
     # """
 
-    # def test_delete(self):
-    #     """
-    #     A deleted k-v pair should not be retrievable.
-    #     """
-    #     h = HashTable(3)
-    #     h['foo'] = 'bar'
-    #     h.delete('foo')
-    #     self.assertEqual(None, h['foo'])
+    def test_delete(self):
+        """
+        A deleted k-v pair should not be retrievable.
+        """
+        h = HashTable(3)
+        h['foo'] = 'bar'
+        h.delete('foo')
+        self.assertEqual(None, h['foo'])
 
     # """
     # Misc. Methods

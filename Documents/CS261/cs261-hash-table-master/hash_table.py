@@ -32,3 +32,7 @@ class HashTable:
 
     def values(self):
         return ([kv_pair[1] for bucket in self.data for kv_pair in bucket]) 
+    def delete(self, key):
+        for i, kv in enumerate(bucket := self.__get_bucket(key)):
+            if kv[0] == key:
+                bucket.pop(i)

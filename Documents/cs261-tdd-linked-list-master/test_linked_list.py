@@ -12,21 +12,21 @@ class TestLinkedList(unittest.TestCase):
     Initialization
     """
 
-    def test_instantiation(self):
-        """
-        An LinkedList exists.
-        """
-        try:
-            LinkedList()
-        except NameError:
-            self.fail("Could not instantiate LinkedList.")
+    # def test_instantiation(self):
+    #     """
+    #     An LinkedList exists.
+    #     """
+    #     try:
+    #         LinkedList()
+    #     except NameError:
+    #         self.fail("Could not instantiate LinkedList.")
 
-    def test_no_initial_value(self):
-        """
-        A list instantiated without a value has a head with a value of None.
-        """
-        ll = LinkedList()
-        self.assertEqual(None, ll.value)
+    # def test_no_initial_value(self):
+    #     """
+    #     A list instantiated without a value has a head with a value of None.
+    #     """
+    #     ll = LinkedList()
+    #     self.assertEqual(None, ll.value)
 
     # def test_initial_value(self):
     #     """
@@ -43,12 +43,12 @@ class TestLinkedList(unittest.TestCase):
     #     ll = LinkedList()
     #     self.assertEqual(ll, ll.next)
 
-    # def test_prev(self):
-    #     """
-    #     A node's `prev` attribute initially refers to itself.
-    #     """
-    #     ll = LinkedList()
-    #     self.assertEqual(ll, ll.prev)
+    def test_prev(self):
+        """
+        A node's `prev` attribute initially refers to itself.
+        """
+        ll = LinkedList()
+        self.assertEqual(ll, ll.prev)
 
     # """
     # Sentinel Node

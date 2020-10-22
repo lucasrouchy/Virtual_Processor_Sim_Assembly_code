@@ -12,7 +12,24 @@ class LinkedList:
         self.value = value
         self.next = self
         self.prev = self
+    def is_sentinel(self):
+        return self.value == None 
+    def is_empty(self):
+        return self.next == self and self.prev == self
+    def is_last(self):
+        if self.is_empty():
+            return self
+        elif self.next.is_sentinel():
+            return self
         
+
+
+
+
+
+    
+
+
 
         
 

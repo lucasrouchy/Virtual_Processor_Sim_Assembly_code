@@ -43,23 +43,23 @@ class TestLinkedList(unittest.TestCase):
     #     ll = LinkedList()
     #     self.assertEqual(ll, ll.next)
 
-    def test_prev(self):
-        """
-        A node's `prev` attribute initially refers to itself.
-        """
-        ll = LinkedList()
-        self.assertEqual(ll, ll.prev)
+    # def test_prev(self):
+    #     """
+    #     A node's `prev` attribute initially refers to itself.
+    #     """
+    #     ll = LinkedList()
+    #     self.assertEqual(ll, ll.prev)
 
     # """
     # Sentinel Node
     # """
 
-    # def test_sentinel_node(self):
-    #     """
-    #     A list node with a value of `None` is a sentinel node.
-    #     (See https://en.wikipedia.org/wiki/Sentinel_node)
-    #     """
-    #     ll = LinkedList()
+    # # def test_sentinel_node(self):
+    # #     """
+    # #     A list node with a value of `None` is a sentinel node.
+    # #     (See https://en.wikipedia.org/wiki/Sentinel_node)
+    # #     """
+    # #     ll = LinkedList()
     #     self.assertTrue(ll.is_sentinel())
 
     # def test_not_sentinel_node(self):
@@ -93,12 +93,12 @@ class TestLinkedList(unittest.TestCase):
     #     ll.next = ll
     #     self.assertFalse(ll.is_empty())
 
-    # def test_empty_is_last(self):
-    #     """
-    #     In an empty list, the sentinel is_last().
-    #     """
-    #     ll = LinkedList()
-    #     self.assertTrue(ll.is_last())
+    def test_empty_is_last(self):
+        """
+        In an empty list, the sentinel is_last().
+        """
+        ll = LinkedList()
+        self.assertTrue(ll.is_last())
 
     # def test_last_of_empty(self):
     #     """

@@ -49,7 +49,13 @@ class LinkedList:
             return self
         else:
             return self.next.at(index-1)
-
+    def search(self, key):
+        if self.value == key:
+            return self
+        elif self.next != self.last().next:
+            return self.next.search(key)
+        else:
+            return None
         
 
 

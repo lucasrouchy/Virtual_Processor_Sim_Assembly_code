@@ -13,3 +13,10 @@ class Stack:
             raise IndexError
         self.size -= 1
         return self.data.pop(self.size)
+    def peek(self):
+        if self.is_empty():
+            raise IndexError
+        return self.data[self.size - 1]
+    def push(self, value):
+        self.data.append(value)
+        self.size += 1

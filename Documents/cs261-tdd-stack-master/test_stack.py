@@ -31,12 +31,12 @@ class TestStack(unittest.TestCase):
     #     s = Stack()
     #     self.assertRaises(IndexError, s.pop)
 
-    def test_initial_peek(self):
-        """
-        Peeking at an empty stack raises IndexError.
-        """
-        s = Stack()
-        self.assertRaises(IndexError, s.peek)
+    # def test_initial_peek(self):
+    #     """
+    #     Peeking at an empty stack raises IndexError.
+    #     """
+    #     s = Stack()
+    #     self.assertRaises(IndexError, s.peek)
 
     # def test_initial_push(self):
     #     """
@@ -71,15 +71,15 @@ class TestStack(unittest.TestCase):
     #     s.push('fi')
     #     self.assertEqual('fi', s.peek())
 
-    # def test_peek_state(self):
-    #     """
-    #     Peeking doesn't mutate the stack.
-    #     """
-    #     s = Stack()
-    #     s.push('fee')
-    #     s.push('fi')
-    #     self.assertEqual('fi', s.peek())
-    #     self.assertEqual('fi', s.peek())
+    def test_peek_state(self):
+        """
+        Peeking doesn't mutate the stack.
+        """
+        s = Stack()
+        s.push('fee')
+        s.push('fi')
+        self.assertEqual('fi', s.peek())
+        self.assertEqual('fi', s.peek())
 
     # def test_pop_two(self):
     #     """

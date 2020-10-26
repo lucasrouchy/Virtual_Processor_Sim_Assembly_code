@@ -8,21 +8,21 @@ from stack import Stack
 
 class TestStack(unittest.TestCase):
 
-    def test_instantiation(self):
-        """
-        A Stack exists.
-        """
-        try:
-            Stack()
-        except NameError:
-            self.fail("Could not instantiate Stack.")
+    # def test_instantiation(self):
+    #     """
+    #     A Stack exists.
+    #     """
+    #     try:
+    #         Stack()
+    #     except NameError:
+    #         self.fail("Could not instantiate Stack.")
 
-    def test_initially_empty(self):
-        """
-        A stack is initially empty.
-        """
-        s = Stack()
-        self.assertTrue(s.is_empty())
+    # def test_initially_empty(self):
+    #     """
+    #     A stack is initially empty.
+    #     """
+    #     s = Stack()
+    #     self.assertTrue(s.is_empty())
 
     # def test_initial_pop(self):
     #     """
@@ -31,12 +31,12 @@ class TestStack(unittest.TestCase):
     #     s = Stack()
     #     self.assertRaises(IndexError, s.pop)
 
-    # def test_initial_peek(self):
-    #     """
-    #     Peeking at an empty stack raises IndexError.
-    #     """
-    #     s = Stack()
-    #     self.assertRaises(IndexError, s.peek)
+    def test_initial_peek(self):
+        """
+        Peeking at an empty stack raises IndexError.
+        """
+        s = Stack()
+        self.assertRaises(IndexError, s.peek)
 
     # def test_initial_push(self):
     #     """

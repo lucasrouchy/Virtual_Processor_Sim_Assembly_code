@@ -8,3 +8,8 @@ class Stack:
         self.size = 0
     def is_empty(self):
         return self.size == 0
+    def pop(self):
+        if self.is_empty():
+            raise IndexError
+        self.size -= 1
+        return self.data.pop(self.size)

@@ -41,6 +41,9 @@ class LinkedList:
             return self.insert(new_node)
         else:
             return self.next.insert_in_order(new_node)
+    def delete(self):
+        self.prev.next = self.next
+        self.next.prev = self.prev
         
 
 

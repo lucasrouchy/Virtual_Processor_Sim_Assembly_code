@@ -289,20 +289,20 @@ class TestLinkedList(unittest.TestCase):
     # Deletion
     # """
 
-    def test_delete(self):
-        """
-        Deleting a node from the middle of a list removes it from the list.
-        """
-        ll = LinkedList()
-        second_node = LinkedList(fake_value())
-        third_node = LinkedList(fake_value())
-        fourth_node = LinkedList(fake_value())
-        ll.append(second_node)
-        ll.append(third_node)
-        ll.append(fourth_node)
-        third_node.delete()
-        self.assertEqual(fourth_node, second_node.next)
-        self.assertEqual(second_node, fourth_node.prev)
+    # def test_delete(self):
+    #     """
+    #     Deleting a node from the middle of a list removes it from the list.
+    #     """
+    #     ll = LinkedList()
+    #     second_node = LinkedList(fake_value())
+    #     third_node = LinkedList(fake_value())
+    #     fourth_node = LinkedList(fake_value())
+    #     ll.append(second_node)
+    #     ll.append(third_node)
+    #     ll.append(fourth_node)
+    #     third_node.delete()
+    #     self.assertEqual(fourth_node, second_node.next)
+    #     self.assertEqual(second_node, fourth_node.prev)
 
     # """
     # Insertion
@@ -328,20 +328,20 @@ class TestLinkedList(unittest.TestCase):
     # Retrieval
     # """
 
-    # def test_at(self):
-    #     """
-    #     At(N) returns the Nth node in the list (where 0 is the sentinel.)
-    #     """
-    #     ll = LinkedList()
-    #     second_node = LinkedList(fake_value())
-    #     third_node = LinkedList(fake_value())
-    #     fourth_node = LinkedList(fake_value())
-    #     ll.append(second_node)
-    #     ll.append(third_node)
-    #     ll.append(fourth_node)
-    #     self.assertEqual(second_node, ll.at(1))
-    #     self.assertEqual(third_node, ll.at(2))
-    #     self.assertEqual(fourth_node, ll.at(3))
+    def test_at(self):
+        """
+        At(N) returns the Nth node in the list (where 0 is the sentinel.)
+        """
+        ll = LinkedList()
+        second_node = LinkedList(fake_value())
+        third_node = LinkedList(fake_value())
+        fourth_node = LinkedList(fake_value())
+        ll.append(second_node)
+        ll.append(third_node)
+        ll.append(fourth_node)
+        self.assertEqual(second_node, ll.at(1))
+        self.assertEqual(third_node, ll.at(2))
+        self.assertEqual(fourth_node, ll.at(3))
 
     # """
     # Search

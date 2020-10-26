@@ -44,6 +44,12 @@ class LinkedList:
     def delete(self):
         self.prev.next = self.next
         self.next.prev = self.prev
+    def at(self, index):
+        if index == 0:
+            return self
+        else:
+            return self.next.at(index-1)
+
         
 
 

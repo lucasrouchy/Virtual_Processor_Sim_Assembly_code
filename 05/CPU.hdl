@@ -39,5 +39,9 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    // Put your code here:
+    Mux16(a=instruction,b=ALUout,sel=instruction[15], out=Ain);
+
+    Not(in=instruction[15],out=notinstruction);
+
+    
 }

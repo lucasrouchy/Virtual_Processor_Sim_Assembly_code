@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0">Default_0.png</texture>
+  <tpe x="0" y="2" tpage="Default_0" entry="4">font0_font0.tpe</tpe>
+  <tpe x="2" y="134" tpage="Default_0" entry="0">sprite3_7fcd08e7-3863-49f3-9254-a83fa57de8e5.tpe</tpe>
+  <tpe x="70" y="134" tpage="Default_0" entry="2">sprite0_c35e2ba3-8e32-4471-9dcb-011b6d7fc627.tpe</tpe>
+  <tpe x="70" y="198" tpage="Default_0" entry="3">sprite1_70bc0c7d-5a21-49d6-9f7e-4bdb3018e0a2.tpe</tpe>
+  <tpe x="2" y="202" tpage="Default_0" entry="1">sprite2_759e03f4-af24-4bd7-83f7-91c1c20b20ac.tpe</tpe>
+</TextureGroup>

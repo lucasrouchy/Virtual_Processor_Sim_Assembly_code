@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="default" Platform="Test" Runtime="VM" Device="Default">
+	<Desktop x="4" y="23" width="2872" height="1710" id="19" title="TheBoyAndTheSkeleton.zip - GameMaker Studio 2" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="False" chain="True" title="Workspace 1" localise_title="" workspace_offset="[1216, 7952]" workspace_scale="1">
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="e39f7326-a7b6-4d3c-9c88-401fe4cba6b6">
+						<WorkspaceChain left="20dpi_px" top="4859.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="de95fc63-2fa5-4912-99fc-3670214db443">
+						<WorkspaceChain left="20dpi_px" top="4254.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="ac90c142-1502-4c19-b671-093a83ff82e0">
+						<WorkspaceChain left="20dpi_px" top="3649.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="ca464898-f5af-4305-8153-68e8d89b4ef5">
+						<WorkspaceChain left="20dpi_px" top="3044.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="10e9630f-e808-4fb4-bbbd-087ab4d598d5">
+						<WorkspaceChain left="20dpi_px" top="2439.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="2b453a83-e198-4361-a919-e6f17707ca33">
+						<WorkspaceChain left="20dpi_px" top="1834.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="f2c5c753-e0c8-4328-9782-854e403c7ec6">
+						<WorkspaceChain left="20.5dpi_px" top="1229.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="2fe38d0e-c2aa-4a3c-a9f2-a71c8dfdaa2d" objectName="oWall" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="20dpi_px" top="6189.5dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="501811c1-c91d-4cf5-8ee2-bedb07524046">
+						<WorkspaceChain left="20dpi_px" top="7811dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="586847ba-ef85-45f0-a01c-e750484a4849">
+						<WorkspaceChain left="20dpi_px" top="7206dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="a490ee45-de8d-4702-994a-e925c4484047">
+						<WorkspaceChain left="20dpi_px" top="9054.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="2542edfb-168b-4040-8df9-f43d1a3174fc">
+						<WorkspaceChain left="20dpi_px" top="624.5dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="58616895-92ce-4342-bbb5-7c4ae437e4a9" objectName="oIdle" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="20dpi_px" top="5464.5dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="613.5dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/oIdle/Step_0.gml" resource="58616895-92ce-4342-bbb5-7c4ae437e4a9" subResource="e2425252-17eb-4175-9fd2-931d075ba542" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/oIdle/Create_0.gml" resource="58616895-92ce-4342-bbb5-7c4ae437e4a9" subResource="81e6dcf9-fd14-40e7-bd3c-fd83e61d92be" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="fef686e6-191b-42a0-bc5b-8ceacdbf872f" objectName="oSkeleton" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="20dpi_px" top="6547.5dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="900dpi_px" h="613.5dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/oSkeleton/Step_0.gml" resource="fef686e6-191b-42a0-bc5b-8ceacdbf872f" subResource="db7d944b-1cc7-42d6-bfbf-e4cbb208e853" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/oSkeleton/Create_0.gml" resource="fef686e6-191b-42a0-bc5b-8ceacdbf872f" subResource="0d782805-accd-409d-b65b-3de803031857" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="c4bf1442-c05c-40fd-ae2c-006743373dd9" objectName="oDoor" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="20dpi_px" top="8402.5dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="900dpi_px" h="613.5dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/oDoor/Collision_7113c7ad-257b-440d-a1e7-86a8d0db3f25.gml" resource="c4bf1442-c05c-40fd-ae2c-006743373dd9" subResource="7113c7ad-257b-440d-a1e7-86a8d0db3f25" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/oDoor/Collision_13130702-1693-42dc-8257-7e89b54bb011.gml" resource="c4bf1442-c05c-40fd-ae2c-006743373dd9" subResource="13130702-1693-42dc-8257-7e89b54bb011" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Hidden" type="eLeft" restore_size="315.8774dpi_px" active_tab="0" />
+		<Dock state="Expanded" type="eRight" restore_size="305.8495dpi_px" active_tab="0">
+			<DockTab title="Resources" localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="da0e389d-115b-4fd8-9d1b-1ac1c752049b">
+				<Module Command="open_resource_tree">
+					<ResourceWindow left="0px" right="" top="0px" bottom="" width="400px" height="600px" flags="CloseButton, ResizeButton" title="Resources" localise_title="ResourceTree_Title" active_view="Default" />
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Expanded" type="eBottom" restore_size="169.2dpi_px" active_tab="0">
+			<DockTab title="Output" localise_title="OutputPanel_Output" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="67ce3d34-e145-48f6-9e6b-80488c6bfb93">
+				<Module Command="open_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Output" localise_title="OutputPanel_Title" />
+				</Module>
+			</DockTab>
+			<DockTab title="Search Results" localise_title="OutputPanel_SearchResults" cell_sizes="[1000]" layout_id="dock_tab_2" layout_guid="4082556c-a9d7-42cd-8940-c42da6050882">
+				<Module Command="open_search_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Search Results" localise_title="OutputPanel_SearchResults" />
+				</Module>
+			</DockTab>
+			<DockTab title="Source Control" localise_title="OutputPanel_SourceControl" cell_sizes="[1000]" layout_id="dock_tab_3" layout_guid="1b319b91-e38f-4350-be0c-de52780d5e11">
+				<Module Command="open_sc_output_panel">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Source Control" localise_title="OutputPanel_SourceControl" />
+				</Module>
+			</DockTab>
+			<DockTab title="Breakpoints" localise_title="Breakpoints" cell_sizes="[1000]" layout_id="dock_tab_4" layout_guid="39b59980-5d54-4c7c-a20f-47c10becc5cb">
+				<Module Command="open_breakpoint_mgr">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Breakpoints" localise_title="Breakpoints" />
+				</Module>
+			</DockTab>
+			<DockTab title="Compile Errors" localise_title="CompileErrors" cell_sizes="[1000]" layout_id="dock_tab_5" layout_guid="40c208a6-cd66-44e7-98a8-9220f09d5739">
+				<Module Command="show_compile_errors">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Compile Errors" localise_title="CompileErrors" />
+				</Module>
+			</DockTab>
+			<DockTab title="Syntax Errors" localise_title="SyntaxErrors" cell_sizes="[1000]" layout_id="dock_tab_6" layout_guid="5add3163-46e7-45be-8284-0479ab21b408">
+				<Module Command="show_syntax_errors">
+					<Window left="0px" right="" top="0px" bottom="" width="900px" height="240px" flags="Default" title="Syntax Errors" localise_title="SyntaxErrors" />
+				</Module>
+			</DockTab>
+		</Dock>
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+			<RoomEditor>
+				<LayerProperties left="20dpi_px" right="" top="" bottom="350dpi_px" width="260dpi_px" height="330dpi_px" flags="Default" title="Instances Properties - room3" localise_title="RoomEditor_LayerProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="1" dock_proportion="0.8933823" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="542f6ddc-d70b-4ce7-b95a-ad3164ad4037" desktop="19" />
+				<Layers left="340dpi_px" right="" top="" bottom="270dpi_px" width="320dpi_px" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - room3" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="1.145054" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="542f6ddc-d70b-4ce7-b95a-ad3164ad4037" desktop="19" />
+				<RoomProperties left="10dpi_px" right="" top="125dpi_px" bottom="" width="300dpi_px" height="240dpi_px" flags="Default" title="Properties - room3" localise_title="RoomEditor_RoomProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="2" dock_proportion="0.9635694" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="542f6ddc-d70b-4ce7-b95a-ad3164ad4037" desktop="19" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+	</Modules>
+</Project>

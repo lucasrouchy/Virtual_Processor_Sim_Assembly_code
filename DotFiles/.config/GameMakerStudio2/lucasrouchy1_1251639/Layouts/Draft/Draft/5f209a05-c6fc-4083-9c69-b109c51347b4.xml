@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="default" Platform="Test" Runtime="VM" Device="Default">
+	<Desktop x="28" y="45" width="2872" height="1710" id="19" title="Draft - GameMaker Studio 2*" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="False" chain="False" title="rm_1" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="d2ba4ab9-5943-454b-9bf3-215877b1673a">
+						<RoomEditArea>
+							<PanArea zoom="1" pan="[0, 0]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="09f936d9-8bb8-456a-b738-d02c2346475e" />
+								<Item GUID="9566877d-1d9f-4a2c-85dc-1c92942c7f2f" />
+							</Selected>
+						</RoomEditArea>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xA;    &quot;1&quot;&#xA;]" workspace_offset="[677, 5840]" workspace_scale="1">
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="495a42a2-cc3d-4186-921d-e83d7d682d42">
+						<WorkspaceChain left="338.5dpi_px" top="96dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="2ad6de2d-742e-4b3f-bcf4-f835382920ed" objectName="obj_solid" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="editor">
+						<WorkspaceChain left="338.5dpi_px" top="1446dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="e37a2853-a258-474c-95d9-8b0d702aca4b" objectName="obj_enemy" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="editor">
+						<WorkspaceChain left="338.5dpi_px" top="1824dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="81b24483-cc86-4d39-a08c-355c47b6d086" objectName="obj_player" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="editor">
+						<WorkspaceChain left="338.5dpi_px" top="700dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="900dpi_px" h="700dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/obj_player/Create_0.gml" resource="81b24483-cc86-4d39-a08c-355c47b6d086" subResource="4168deaf-c5ed-4121-a010-7f2b3aad64e4" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/obj_player/Step_0.gml" resource="81b24483-cc86-4d39-a08c-355c47b6d086" subResource="157413e2-e85c-407f-b707-d93b501cfdcc" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/obj_player/Alarm_0.gml" resource="81b24483-cc86-4d39-a08c-355c47b6d086" subResource="34de131b-9973-4ec5-8bbf-306858ba957b" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/obj_player/Draw_0.gml" resource="81b24483-cc86-4d39-a08c-355c47b6d086" subResource="78502b00-f1f3-4a3f-a36c-33a15e71765a" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="9b76d15b-e257-4475-8de7-bec5152baa9d" objectName="obj_player2" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="editor">
+						<WorkspaceChain left="338.5dpi_px" top="2202dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="900dpi_px" h="700dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/obj_player2/Create_0.gml" resource="9b76d15b-e257-4475-8de7-bec5152baa9d" subResource="6d328f28-f405-425f-be3b-0bb92475736a" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/obj_player2/Step_0.gml" resource="9b76d15b-e257-4475-8de7-bec5152baa9d" subResource="15e7bd3f-0967-47eb-9e60-01e016675dee" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="1d94344e-6693-4489-9cd3-94899d088d7e" objectName="obj_door" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="editor">
+						<WorkspaceChain left="338.5dpi_px" top="2947dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="1" isActive="False" w="900dpi_px" h="700dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/obj_door/Collision_f84abd4a-055e-4907-ac5a-3b7b67edf779.gml" resource="1d94344e-6693-4489-9cd3-94899d088d7e" subResource="f84abd4a-055e-4907-ac5a-3b7b67edf779" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/obj_door/Collision_0890b9d7-1d13-42de-8482-d303b7e31375.gml" resource="1d94344e-6693-4489-9cd3-94899d088d7e" subResource="0890b9d7-1d13-42de-8482-d303b7e31375" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="rm_2" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="b9bb250e-1a95-4ddd-8fdc-fd1c7e6c7b1a">
+						<RoomEditArea>
+							<PanArea zoom="0.9693965" pan="[650.9216, -2582.908]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="91458cdd-5d0c-4e16-a8f4-d20ae0797caf" />
+							</Selected>
+						</RoomEditArea>
+					</Room>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eLeft" restore_size="329.9164dpi_px" active_tab="0">
+			<DockTab title="Room Editor" localise_title="RoomEditor_DockTab" cell_sizes="[1000]" layout_id="room_editor_tab" layout_guid="f5bb40d5-5537-4191-8cde-9b9e238b4ddc" />
+		</Dock>
+		<Dock state="Expanded" type="eRight" restore_size="319.4429dpi_px" active_tab="0">
+			<DockTab title="Resources" localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="724c504b-ea74-49f2-8ae2-cf19f51d89e2">
+				<Module Command="open_resource_tree">
+					<ResourceWindow left="0px" right="" top="0px" bottom="" width="400px" height="600px" flags="CloseButton, ResizeButton" title="Resources" localise_title="ResourceTree_Title" active_view="Default" />
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Hidden" type="eBottom" restore_size="160.2dpi_px" active_tab="0" />
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+			<RoomEditor>
+				<RoomProperties left="10dpi_px" right="" top="125dpi_px" bottom="" width="300dpi_px" height="240dpi_px" flags="Default" title="Properties - rm_2" localise_title="RoomEditor_RoomProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="1" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="f5bb40d5-5537-4191-8cde-9b9e238b4ddc" desktop="19" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+	</Modules>
+</Project>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0">Default_0.png</texture>
+  <tpe x="0" y="2" tpage="Default_0" entry="2">sWall_7db2f359-2474-45bb-809a-d6677d1e66da.tpe</tpe>
+  <tpe x="0" y="70" tpage="Default_0" entry="1">sPlayer_2e81845f-efd8-4971-a752-96270aacca40.tpe</tpe>
+  <tpe x="2" y="138" tpage="Default_0" entry="0">sprite1_90fb773c-b318-40e0-b4fc-b8f02f2758c9.tpe</tpe>
+</TextureGroup>

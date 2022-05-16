@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="default" Platform="Test" Runtime="VM" Device="Default">
+	<Desktop x="0" y="23" width="3008" height="1710" id="19" title="BartJumpGame - GameMaker Studio 2" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="False" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xA;    &quot;1&quot;&#xA;]" workspace_offset="[413, 72]" workspace_scale="1">
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="34ff0557-68b9-4bc5-b3b3-37ead5a3d826" objectName="oWall" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="20dpi_px" top="1350dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="f694c09a-632f-4605-a407-1ee6e7957cae">
+						<WorkspaceChain left="20dpi_px" top="113dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="00aee63d-94ee-4b0e-a505-df783ef7d4af">
+						<WorkspaceChain left="20dpi_px" top="-472dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="e1ccaf3a-e297-4569-8bcf-45df4c09f69c">
+						<WorkspaceChain left="-116dpi_px" top="2144dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="39ec80dd-7bdb-400f-9f34-f0b564c1cd3f" objectName="oBart" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="7dpi_px" top="3507dpi_px" />
+					</ObjectEditor>
+				</Module>
+				<Module Command="open_object_editor">
+					<ObjectEditor objectId="f63bfa85-9126-4398-8ddb-6123e6b46ad3" objectName="oPlayer" eventsOpen="true" parentOpen="false" physicsOpen="false" physicsEditorOpen="false" activeWindow="parent">
+						<WorkspaceChain left="20dpi_px" top="698dpi_px" />
+						<DocumentWindow columns="1" fullscreen="False" activeTab="0" isActive="False" w="900dpi_px" h="618dpi_px" linkIndex="-1">
+							<Script column="0" file="${project_dir}/objects/oPlayer/Create_0.gml" resource="f63bfa85-9126-4398-8ddb-6123e6b46ad3" subResource="ba52f48d-b859-4dc3-822b-f59f25a3ae59" overridden_title="False" view_readonly="False" />
+							<Script column="0" file="${project_dir}/objects/oPlayer/Step_0.gml" resource="f63bfa85-9126-4398-8ddb-6123e6b46ad3" subResource="3c58af81-6f0d-42a5-a4e7-c064c2396f54" overridden_title="False" view_readonly="False" />
+						</DocumentWindow>
+					</ObjectEditor>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Hidden" type="eLeft" restore_size="377.2006dpi_px" active_tab="0" />
+		<Dock state="Expanded" type="eRight" restore_size="169.4846dpi_px" active_tab="0">
+			<DockTab title="Resources" localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="e35daa4d-0d8e-4fe5-b0a5-9afd96ea2ef7">
+				<Module Command="open_resource_tree">
+					<ResourceWindow left="2321px" right="" top="268px" bottom="" width="350dpi_px" height="540dpi_px" flags="CloseButton, ResizeButton" title="Resources" localise_title="ResourceTree_Title" active_view="Default" />
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Hidden" type="eBottom" restore_size="128dpi_px" active_tab="0" />
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+			<RoomEditor />
+		</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+	</Modules>
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TPE>
+  <w>32</w>
+  <h>32</h>
+  <name>Default</name>
+  <hasAlpha>True</hasAlpha>
+  <hash>2063167622</hash>
+  <xoffset>0</xoffset>
+  <yoffset>0</yoffset>
+  <cropWidth>32</cropWidth>
+  <cropHeight>32</cropHeight>
+  <ow>32</ow>
+  <oh>32</oh>
+  <image>sWall_961760e5-dc17-4aca-beb6-9407c1012fb2.tpe.png</image>
+</TPE>

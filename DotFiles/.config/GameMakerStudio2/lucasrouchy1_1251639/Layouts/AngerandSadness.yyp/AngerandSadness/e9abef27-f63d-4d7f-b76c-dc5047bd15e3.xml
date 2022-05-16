@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ActiveConfig="default" Platform="Test" Runtime="VM" Device="Default">
+	<Desktop x="4" y="23" width="2872" height="1710" id="19" title="AngerandSadness - GameMaker Studio 2*" windowState="Maximized">
+		<Workspaces>
+			<Workspace active="False" chain="True" title="Workspace 1" localise_title="Workspace_TabTitle" localise_arguments="[&#xA;    &quot;1&quot;&#xA;]" workspace_offset="[707, 894]" workspace_scale="1">
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="add0020b-1cde-471f-8573-9639db02c3ca">
+						<WorkspaceChain left="373.5dpi_px" top="96dpi_px" />
+					</SpriteEditor>
+				</Module>
+				<Module Command="open_sprite_editor">
+					<SpriteEditor SpriteEditor_Id="ec39d3a0-8482-4967-8371-151b701a484d">
+						<WorkspaceChain left="373.5dpi_px" top="701dpi_px" />
+					</SpriteEditor>
+				</Module>
+			</Workspace>
+			<Workspace active="False" chain="False" title="room0" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="a4ee22ff-7763-43a7-ac0e-641a71d037e2">
+						<RoomEditArea>
+							<PanArea zoom="1.584961" pan="[6.309304, -99.9236]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="a028df4e-9229-44fa-b8be-95fc408135c2" />
+							</Selected>
+						</RoomEditArea>
+					</Room>
+				</Module>
+			</Workspace>
+			<Workspace active="True" chain="False" title="room1" localise_title="" workspace_offset="[0, 0]" workspace_scale="1">
+				<Module Command="open_room_editor" WorkspaceOwner="true">
+					<Room id="1d2e4443-12f5-4f7e-bacf-0f63a8fe9f46">
+						<RoomEditArea>
+							<PanArea zoom="1.577148" pan="[-0.6340557, -19]" />
+							<Properties />
+							<Selected>
+								<Layer GUID="94563b47-0fa5-4735-82bb-1a4576e1793f" />
+							</Selected>
+						</RoomEditArea>
+					</Room>
+				</Module>
+			</Workspace>
+		</Workspaces>
+		<Dock state="Expanded" type="eLeft" restore_size="315dpi_px" active_tab="0">
+			<DockTab title="Room Editor" localise_title="RoomEditor_DockTab" cell_sizes="[381,297,321]" layout_id="room_editor_tab" layout_guid="96da2423-45df-417f-a9f6-0230b06f70a2" />
+		</Dock>
+		<Dock state="Expanded" type="eRight" restore_size="305dpi_px" active_tab="0">
+			<DockTab title="Resources" localise_title="ResourceTree_Title" cell_sizes="[1000]" layout_id="dock_tab_1" layout_guid="724c504b-ea74-49f2-8ae2-cf19f51d89e2">
+				<Module Command="open_resource_tree">
+					<ResourceWindow left="0px" right="" top="0px" bottom="" width="400px" height="600px" flags="CloseButton, ResizeButton" title="Resources" localise_title="ResourceTree_Title" active_view="Default" />
+				</Module>
+			</DockTab>
+		</Dock>
+		<Dock state="Hidden" type="eBottom" restore_size="160.2dpi_px" active_tab="0" />
+	</Desktop>
+	<Modules>
+		<YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+			<RoomEditor>
+				<LayerProperties left="20dpi_px" right="" top="" bottom="350dpi_px" width="260dpi_px" height="330dpi_px" flags="Default" title="Instances Properties - room1" localise_title="RoomEditor_LayerProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="1" dock_proportion="0.8933823" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="96da2423-45df-417f-a9f6-0230b06f70a2" desktop="19" />
+				<Layers left="340dpi_px" right="" top="" bottom="270dpi_px" width="320dpi_px" height="250dpi_px" flags="CloseButton, MinimizeButton, ResizeButton" title="Layers - room1" localise_title="RoomEditor_Layers" dock_type="eLeft" dock_tab_index="0" dock_list_index="0" dock_proportion="1.145054" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="96da2423-45df-417f-a9f6-0230b06f70a2" desktop="19" />
+				<RoomProperties left="10dpi_px" right="" top="125dpi_px" bottom="" width="300dpi_px" height="240dpi_px" flags="Default" title="Properties - room1" localise_title="RoomEditor_RoomProperties" dock_type="eLeft" dock_tab_index="0" dock_list_index="2" dock_proportion="0.9635694" dock_tab_name="Room Editor" dock_tab_localise_name="RoomEditor_DockTab" dock_tab_id="room_editor_tab" dock_tab_guid="96da2423-45df-417f-a9f6-0230b06f70a2" desktop="19" />
+			</RoomEditor>
+		</YoYoStudio.Plugins.CorePlugins.RoomEditorModule>
+	</Modules>
+</Project>

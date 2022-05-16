@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0">Default_0.png</texture>
+  <tpe x="2" y="2" tpage="Default_0" entry="35">sprite10_b8fe16e0-211e-4fd7-8c57-4139d6372d37.tpe</tpe>
+  <tpe x="2" y="406" tpage="Default_0" entry="31">sSkeletonAttack_b5c83c73-ad7b-4359-a2af-7128e03ec38d.tpe</tpe>
+  <tpe x="2" y="774" tpage="Default_0" entry="36">sSkeletonAttack_9fdeecca-fc1c-4a40-8822-01def479c5aa.tpe</tpe>
+  <tpe x="2" y="1146" tpage="Default_0" entry="28">sSkeletonAttack_c274901c-4f5f-4ef3-94f6-676f532722fc.tpe</tpe>
+  <tpe x="2" y="1514" tpage="Default_0" entry="18">sSkeletonIdle_b9d6b848-aa4f-4558-a393-e5b619c3f9df.tpe</tpe>
+  <tpe x="246" y="1146" tpage="Default_0" entry="21">sSkeletonIdle_b4d2f44b-362f-42bb-ba3d-5e304c3cc818.tpe</tpe>
+  <tpe x="226" y="1514" tpage="Default_0" entry="23">sSkeletonIdle_8a0db8c8-c7c5-4bb8-baa8-b8ccbda970e7.tpe</tpe>
+  <tpe x="226" y="1514" tpage="Default_0" entry="30">sSkeletonIdle_5fc86634-b1bd-4db0-baf0-9cecb693a149.tpe</tpe>
+  <tpe x="246" y="1146" tpage="Default_0" entry="32">sSkeletonIdle_cd057570-f59b-49a0-b48a-34371761aa1b.tpe</tpe>
+  <tpe x="250" y="774" tpage="Default_0" entry="27">sSkeletonIdle_84af3249-9b52-4165-8623-acf5cd7b4f69.tpe</tpe>
+  <tpe x="266" y="406" tpage="Default_0" entry="22">sSkeletonWalk_7caa9316-3e0d-4c19-9791-9fe7eb1a9834.tpe</tpe>
+  <tpe x="406" y="2" tpage="Default_0" entry="19">sSkeletonWalk_4d8a8316-9b67-4a0d-9666-d01bdfeaf867.tpe</tpe>
+  <tpe x="450" y="1514" tpage="Default_0" entry="15">sSkeletonWalk_2bb68a79-6e3d-4627-9d7b-074d8e063867.tpe</tpe>
+  <tpe x="470" y="1142" tpage="Default_0" entry="37">sSkeletonWalk_11fe6a6c-953e-4798-92dc-29003d078197.tpe</tpe>
+  <tpe x="474" y="774" tpage="Default_0" entry="34">sSkeletonWalk_38474ff5-7505-448b-bdd3-4544b21f1dcb.tpe</tpe>
+  <tpe x="486" y="370" tpage="Default_0" entry="20">sSkeletonAttack_3a00f2f1-6ec3-48e6-a625-0acde3ab30dd.tpe</tpe>
+  <tpe x="626" y="2" tpage="Default_0" entry="31">sSkeletonWalk_4f90a061-1d10-44ee-b623-6debd75e59b4.tpe</tpe>
+  <tpe x="670" y="1510" tpage="Default_0" entry="16">sSkeletonAttack_332ec5b3-c10a-4ad0-a437-96214af4dbb2.tpe</tpe>
+  <tpe x="690" y="738" tpage="Default_0" entry="38">sSkeletonAttack_6af04f2c-1905-4a9a-9ee8-494b198f30c1.tpe</tpe>
+  <tpe x="690" y="1106" tpage="Default_0" entry="29">sSkeletonWalk_5f73b6f6-0278-4dd9-957a-a6a636be198f.tpe</tpe>
+  <tpe x="698" y="370" tpage="Default_0" entry="26">sSkeletonWalk_d241a156-6ae1-41ff-b944-08b52dc91d44.tpe</tpe>
+  <tpe x="838" y="2" tpage="Default_0" entry="33">sSkeletonAttack_12b5ea86-7b69-443c-bdfc-70277eb11c8e.tpe</tpe>
+  <tpe x="878" y="1474" tpage="Default_0" entry="24">sSkeletonAttack_27e6c9c7-d88b-406f-bc9a-42f16c7246f1.tpe</tpe>
+  <tpe x="894" y="1106" tpage="Default_0" entry="39">sDoor_9aa1e74d-d8a8-46bd-9280-e1516f117259.tpe</tpe>
+  <tpe x="2" y="1882" tpage="Default_0" entry="25">sprite8_1f2538f3-501d-42df-985f-3f017d2a6b7f.tpe</tpe>
+  <tpe x="670" y="1878" tpage="Default_0" entry="2">sJumpAttack_cdfc6792-5f09-421d-b281-fdba3dfe2d6b.tpe</tpe>
+  <tpe x="878" y="1858" tpage="Default_0" entry="5">sJumpAttack_57c2644e-9a00-4bc5-b998-6234d56c008d.tpe</tpe>
+  <tpe x="894" y="1334" tpage="Default_0" entry="8">sJumpAttack_ff968fda-7064-412a-a866-8883969776c4.tpe</tpe>
+  <tpe x="898" y="370" tpage="Default_0" entry="12">sJumpAttack_90a4b639-5dfd-43a2-b83a-bd5e567792aa.tpe</tpe>
+  <tpe x="2" y="1950" tpage="Default_0" entry="3">sAttack_52662442-e35b-4311-b30e-8510aa0ac661.tpe</tpe>
+  <tpe x="70" y="1882" tpage="Default_0" entry="6">sAttack_7943e5a6-fff1-4d99-8ed9-5959dffc91b2.tpe</tpe>
+  <tpe x="926" y="1858" tpage="Default_0" entry="10">sAttack_d42353b5-782f-4fa7-b9df-36356f7da4a4.tpe</tpe>
+  <tpe x="718" y="1878" tpage="Default_0" entry="14">sAttack_679ba10b-53ec-4a9c-b9b1-acb108e98dcb.tpe</tpe>
+  <tpe x="894" y="1374" tpage="Default_0" entry="0">sIdle_14ea16c9-324a-44b8-860c-7a465d4bb244.tpe</tpe>
+  <tpe x="942" y="1334" tpage="Default_0" entry="1">sWalk_2a5de08a-4329-4e3c-b44f-9f5f09fce74a.tpe</tpe>
+  <tpe x="894" y="1374" tpage="Default_0" entry="4">sIdle_c0105faa-b812-46a3-a5f6-beff329b3255.tpe</tpe>
+  <tpe x="946" y="370" tpage="Default_0" entry="6">sWalk_cfc76f88-7e4d-40c1-b41f-5a5ff047ea13.tpe</tpe>
+  <tpe x="50" y="1950" tpage="Default_0" entry="7">sIdle_f82c8f59-d5e2-4624-8a70-43c526fa44cc.tpe</tpe>
+  <tpe x="898" y="410" tpage="Default_0" entry="9">sWalk_eea79ce9-cdce-4ac2-a671-6b07be16e515.tpe</tpe>
+  <tpe x="50" y="1950" tpage="Default_0" entry="11">sIdle_0e20e4ca-aa0c-41cc-b10b-d2b6c864d0c6.tpe</tpe>
+  <tpe x="2" y="1990" tpage="Default_0" entry="13">sWalk_d2913bf1-bc69-4532-99a7-ec82ff80c4aa.tpe</tpe>
+  <tpe x="118" y="1882" tpage="Default_0" entry="17">sJump_7b35c036-bcd9-42b1-b832-a66de1f5afdd.tpe</tpe>
+</TextureGroup>
